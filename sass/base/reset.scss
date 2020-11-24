@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: 'SF Pro Text';
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	vertical-align: middle;
+}
