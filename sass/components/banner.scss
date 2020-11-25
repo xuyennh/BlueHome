@@ -1,7 +1,8 @@
 .banner {
 	position: relative;
 	min-height: 479px;
-	padding: 100px 0;
+	padding-top: 190px;
+	padding-bottom: 94px;
 }
 .banner__bg {
 	background-image: url('/assets/img/banner.jpg');
@@ -15,7 +16,7 @@
 	z-index: -2;
 }
 .banner__desc {
-	opacity: 0.9;
+	opacity: 92%;
 	font-weight: 400;
 	font-size: 24px;
 	color: var(--white-color);
@@ -26,9 +27,14 @@
 }
 
 // responsive
+@media (max-width: 1200px) {
+	.banner {
+		padding: 60px 0;
+	}
+}
 @media (max-width: 768px) {
 	.banner {
-		padding: 30px 16px;
+		padding: 60px 0;
 	}
 	.banner__content {
 		width: 100%;
@@ -39,5 +45,9 @@
 		font-size: 17px;
 		margin-top: 10px;
 		opacity: 80%;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 }

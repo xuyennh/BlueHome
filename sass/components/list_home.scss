@@ -32,3 +32,9 @@
 	width: 100%;
 	color: var(--white-color);
 }
+
+@media (max-width: 768px) {
+	.list-home__content {
+		width: 75%;
+	}
+}

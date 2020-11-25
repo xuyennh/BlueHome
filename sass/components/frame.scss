@@ -51,10 +51,14 @@
 }
 .frame__add {
 	color: #232526;
+	font-size: 14px;
+	font-weight: 400;
 }
 .frame__title {
 	color: #161637;
 	opacity: 60%;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 // responsive
@@ -102,5 +106,16 @@
 	}
 	.frame__item2 {
 		padding: 6px;
+	}
+}
+@media (max-width: 786px) {
+	.frame {
+		padding: 16px;
+	}
+	.frame__title {
+		font-size: 15px;
+	}
+	.frame__txt {
+		font-size: 15px;
 	}
 }

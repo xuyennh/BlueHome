@@ -8,4 +8,21 @@
 	grid-column-gap: 30px;
 	grid-row-gap: 15px;
 	grid-template-columns: auto auto;
+	max-height: 100%;
+}
+
+@media (max-width: 1440px) {
+	.grid {
+		grid-template-columns: auto auto auto;
+	}
+}
+@media (max-width: 768px) {
+	.grid {
+		grid-template-columns: auto auto;
+	}
+}
+@media (max-width: 576px) {
+	.grid {
+		grid-gap: 15px;
+	}
 }

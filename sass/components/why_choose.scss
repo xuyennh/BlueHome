@@ -15,7 +15,7 @@
 	z-index: -2;
 }
 .why-choose__item {
-	padding: 120px 30px;
+	padding: 70px 30px;
 	background-color: #ffffff;
 	box-shadow: 0px 0px 11px 1px #eaeaea;
 	display: flex;
@@ -28,16 +28,19 @@
 }
 .why-choose__title {
 	margin-bottom: 8px;
+	font-size: 18px;
+	font-weight: bold;
 	color: var(--primary-color);
 	text-transform: uppercase;
 }
 .why-choose__desc {
 	color: var(--black-color);
+	font-size: 18px;
 	text-align: center;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 500px) and (max-width: 768px) {
 	.why-choose__item {
-		padding: 70px 30px;
+		padding: 15px 20px;
 	}
 }

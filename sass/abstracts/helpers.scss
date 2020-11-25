@@ -58,3 +58,29 @@
 .text-cap {
 	text-transform: capitalize;
 }
+@media (max-width: 767px) {
+	.title {
+		margin-bottom: 40px;
+	}
+	.mt-sm-32 {
+		margin-top: 32px;
+	}
+}
+@media (max-width: 576px) {
+	.arrow-sm-left {
+		position: absolute;
+		background-color: #4f6876 !important;
+		opacity: 60% !important;
+		z-index: 2;
+		color: #ffffff;
+		left: 5px;
+	}
+	.arrow-sm-right {
+		position: absolute;
+		background-color: #4f6876 !important;
+		opacity: 60% !important;
+		z-index: 2;
+		color: #ffffff;
+		right: 5px;
+	}
+}
